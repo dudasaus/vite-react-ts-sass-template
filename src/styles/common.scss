@@ -1,0 +1,10 @@
+/** Common styles, functions, and mixins. */
+@use "sass:math";
+
+/**
+ * Device independent pixels. See
+ * https://en.wikipedia.org/wiki/Device-independent_pixel
+ */
+@function dp($pixels) {
+  @return math.div($pixels * 1rem, 16);
+}

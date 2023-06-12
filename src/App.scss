@@ -1,0 +1,21 @@
+@use "common";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  img {
+    margin-right: common.dp(16);
+  }
+}
+
+.card {
+  padding: 2em;
+  background: rgba(white, 0.5);
+}
